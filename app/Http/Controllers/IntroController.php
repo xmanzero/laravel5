@@ -16,4 +16,8 @@ class IntroController extends Controller
     public function contact(){
     	return view('pages.contact');
     }
+
+    public function create_article(){
+    	
+    }
 }

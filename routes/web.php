@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 Route::get('about','IntroController@about');
 Route::get('contact','IntroController@contact');
+Route::get('create_article',function(){
+	return view('pages.create_article');
+});
